@@ -1,2 +1,377 @@
-# my-website
-最初のREADMEファイルです。
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Website - COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="mobile-menu-overlay"></div>
+
+    <header class="header">
+        <div class="header-logo">COMPANY</div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#hero">トップ</a></li>
+                <li><a href="#about">わたしたちについて・企業理念</a></li>
+                <li><a href="#services">事業内容</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#members">求人</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+                <li><a href="#customer-support">お客様相談室</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="hero" class="hero section-blue">
+            <div class="aurora-bg"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">SHAPING THE FUTURE<br>WITH TECHNOLOGY</h1>
+                <p class="hero-subtitle">ともに未来を創る</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- 企業理念 -->
+        <section id="about" class="philosophy section-lightblue">
+            <div class="container text-center">
+                <h2 class="section-title">Philosophy<span>企業理念</span></h2>
+                <p class="philosophy-text">
+                    「テクノロジーで人々の生活を豊かにする」<br>
+                    私たちは、最新の技術とクリエイティブな発想を掛け合わせ、<br>
+                    社会の課題を解決し、より良い未来を創造します。
+                </p>
+            </div>
+        </section>
+
+        <!-- News -->
+        <section id="news" class="news section-white">
+            <div class="container">
+                <h2 class="section-title">News<span>お知らせ</span></h2>
+                <div class="news-carousel">
+                    <div class="news-item">
+                        <span class="news-date">2026.03.13</span>
+                        <span class="news-category">お知らせ</span>
+                        <p class="news-text">コーポレートサイトをリニューアルしました。</p>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">2026.02.20</span>
+                        <span class="news-category">プレスリリース</span>
+                        <p class="news-text">新サービス「Tech-Advance」の提供を開始しました。</p>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">2026.01.15</span>
+                        <span class="news-category">採用情報</span>
+                        <p class="news-text">2027年度新卒採用のエントリー受付を開始しました。</p>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">2025.12.10</span>
+                        <span class="news-category">イベント</span>
+                        <p class="news-text">「AI Technology Conference 2025」に登壇しました。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- サービス紹介 -->
+        <section id="services" class="services section-white">
+            <div class="container container-relative">
+                <h2 class="section-title">Services<span>事業内容</span></h2>
+                <a href="#" class="btn-detail-top">詳細ページへ <i class="fas fa-arrow-right"></i></a>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>システム開発</h3>
+                        <p>要件定義から保守運用まで、お客様のニーズに合わせたシステムを開発します。</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>マーケティング支援</h3>
+                        <p>データ分析に基づいた効果的なマーケティング戦略を立案・実行します。</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-cloud"></i></div>
+                        <h3>クラウドインテグレーション</h3>
+                        <p>セキュアなクラウド環境の構築と最適な移行をサポートします。</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-robot"></i></div>
+                        <h3>AIソリューション</h3>
+                        <p>最新技術を活用し、IoTやAI技術で業務の自動化を実現します。</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>セキュリティ対策</h3>
+                        <p>情報資産を守るための総合的なセキュリティソリューションを提供します。</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-headset"></i></div>
+                        <h3>ITコンサルティング</h3>
+                        <p>経営課題の解決に向けたIT戦略の立案から実行支援まで伴走いたします。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせ中間 -->
+        <section id="contact-mid" class="contact-mid section-lightblue">
+            <div class="container text-center">
+                <h2>ご相談・お見積りなど<br>お気軽にお問い合わせください</h2>
+                <div class="contact-buttons">
+                    <a href="#contact" class="btn btn-primary">個人のお客様はこちら</a>
+                    <a href="#contact" class="btn btn-secondary">法人のお客様はこちら</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 協力会社テロップ -->
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>Partner Company A</span>
+                    <span>Technology Group B</span>
+                    <span>Global Systems C</span>
+                    <span>Innovation Inc. D</span>
+                    <span>Future Solutions E</span>
+                    <span>Partner Company A</span>
+                    <span>Technology Group B</span>
+                    <span>Global Systems C</span>
+                    <span>Innovation Inc. D</span>
+                    <span>Future Solutions E</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- メンバー紹介 -->
+        <section id="members" class="members section-white">
+            <div class="container">
+                <h2 class="section-title">Members & Achievements<span>実績・部署・メンバー紹介</span></h2>
+
+                <div class="members-scroll-container">
+                    <p class="scroll-instruction"><i class="fas fa-chevron-down"></i> 下にスクロールして見る</p>
+                    <div class="members-scroll-area">
+                        <!-- スライド 1: 部署ごとの職員比率 -->
+                        <div class="member-scroll-slide">
+                            <div class="member-image-bg"
+                                style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                            </div>
+                            <div class="member-info stats-info">
+                                <h3>部署ごとの職員比率</h3>
+                                <div class="bar-chart">
+                                    <div class="bar-row">
+                                        <span class="bar-label">エンジニア</span>
+                                        <div class="bar-track">
+                                            <div class="bar-fill" style="width: 55%;"></div>
+                                            <span class="bar-value">55% (120名)</span>
+                                        </div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <span class="bar-label">デザイナー</span>
+                                        <div class="bar-track">
+                                            <div class="bar-fill" style="width: 20%;"></div>
+                                            <span class="bar-value">20% (45名)</span>
+                                        </div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <span class="bar-label">セールス・企画</span>
+                                        <div class="bar-track">
+                                            <div class="bar-fill" style="width: 15%;"></div>
+                                            <span class="bar-value">15% (35名)</span>
+                                        </div>
+                                    </div>
+                                    <div class="bar-row">
+                                        <span class="bar-label">バックオフィス</span>
+                                        <div class="bar-track">
+                                            <div class="bar-fill" style="width: 10%;"></div>
+                                            <span class="bar-value">10% (20名)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- スライド 2 -->
+                        <div class="member-scroll-slide">
+                            <div class="member-image-bg"
+                                style="background-image: url('https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                            </div>
+                            <div class="member-info">
+                                <h3>代表取締役社長<br><span>山田 太郎</span></h3>
+                                <p>「テクノロジーで人々の生活を豊かにする」という理念のもと、私たちは日々革新を追求しています。お客様とともに、より良い未来を創造してまいります。</p>
+                            </div>
+                        </div>
+                        <!-- スライド 2 -->
+                        <div class="member-scroll-slide">
+                            <div class="member-image-bg"
+                                style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                            </div>
+                            <div class="member-info">
+                                <h3>CTO (最高技術責任者)<br><span>鈴木 次郎</span></h3>
+                                <p>最新の技術動向を常にキャッチアップし、お客様にとって最適なソリューションを提供できるよう技術チームをリードしています。最高のエンジニアチームがここにはあります。</p>
+                            </div>
+                        </div>
+                        <!-- スライド 3 -->
+                        <div class="member-scroll-slide">
+                            <div class="member-image-bg"
+                                style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                            </div>
+                            <div class="member-info">
+                                <h3>CDO (最高デザイン責任者)<br><span>佐藤 花子</span></h3>
+                                <p>ユーザー体験（UX）を第一に考え、直感的で美しいデザインを生み出すことに情熱を注いでいます。デザインの力でビジネスの価値を最大化します。</p>
+                            </div>
+                        </div>
+                        <!-- スライド 4 -->
+                        <div class="member-scroll-slide">
+                            <div class="member-image-bg"
+                                style="background-image: url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                            </div>
+                            <div class="member-info">
+                                <h3>CMO (最高マーケティング責任者)<br><span>田中 一郎</span></h3>
+                                <p>データドリブンなアプローチで、市場のニーズを的確に捉え、革新的なマーケティング戦略を展開しています。私たちの価値を世界へ届けます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせ -->
+        <section id="contact" class="contact section-gradient-blue">
+            <div class="container">
+                <h2 class="section-title text-white">Contact<span>お問い合わせ</span></h2>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <h3>個人のお客様</h3>
+                        <p>サービスのご利用に関するご質問やご相談はこちら</p>
+                        <a href="#" class="btn btn-outline-white">個人向けフォームへ</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3>法人のお客様</h3>
+                        <p>システム開発や協業に関するご相談、お見積りはこちら</p>
+                        <a href="#" class="btn btn-outline-white">法人向けフォームへ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">COMPANY</div>
+                <div class="footer-sitemap">
+                    <div class="sitemap-column">
+                        <h4>メニュー</h4>
+                        <ul>
+                            <li><a href="#hero">トップ</a></li>
+                            <li><a href="#about">わたしたちについて</a></li>
+                            <li><a href="#services">事業内容</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap-column">
+                        <h4>インフォメーション</h4>
+                        <ul>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#members">求人・メンバー</a></li>
+                            <li id="customer-support"><a href="#contact">お客様相談室</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap-column">
+                        <h4>サポート</h4>
+                        <ul>
+                            <li><a href="#contact">お問い合わせ</a></li>
+                            <li><a href="#">プライバシーポリシー</a></li>
+                            <li><a href="#">利用規約</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 COMPANY Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // 旧スライダーのJSコードを削除し、必要に応じて新しいスクロールイベントを追加することも可能
+        // 現在はCSSのscroll-snapで制御するため、特別なJSは不要です。
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                // Close mobile menu if open
+                const headerNav = document.querySelector('.header-nav');
+                const overlay = document.querySelector('.mobile-menu-overlay');
+                if (headerNav && headerNav.classList.contains('active')) {
+                    headerNav.classList.remove('active');
+                    overlay.classList.remove('active');
+                    const icon = document.querySelector('.menu-toggle i');
+                    if (icon) {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                }
+
+                const target = document.querySelector(targetId);
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const headerNav = document.querySelector('.header-nav');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+
+        function toggleMenu() {
+            headerNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+
+            // Toggle icon
+            const icon = menuToggle.querySelector('i');
+            if (headerNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        }
+
+        menuToggle.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+
+    </script>
+</body>
+
+</html>
